@@ -271,7 +271,7 @@ class skeletonize():
     def skeleton(self, obj):    
         obj = np.array(obj, dtype=np.bool)
         im_2d = True if obj.ndim==2 else False
-            
+        
         boundary_dist = skfmm.distance(obj)        
         source_point = np.unravel_index(np.argmax(boundary_dist), boundary_dist.shape)        
         max_dist_ = boundary_dist[source_point]
