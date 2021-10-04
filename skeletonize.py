@@ -1,8 +1,14 @@
+"""skeletonize is a Python module that implements a distance transform based
+skeletonization method.
+
+https://github.com/aAbdz/skeletonize/"""
+    
+
 import numpy as np
 import skfmm
 
 
-class skeletonization():
+class skeletonize():
     def __init__(self, speed_power=1.2, Euler_step_size=0.5, depth_th=2, length_th=None, simple_path=False, verbose=False):
         super().__init__()        
         self.speed_power = speed_power
