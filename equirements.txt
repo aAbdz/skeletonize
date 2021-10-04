@@ -1,0 +1,3 @@
+numpy
+scikit-fmm==0.0.9
+matplotlib
