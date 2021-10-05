@@ -1,6 +1,6 @@
 # skeletonize
 
-The skeletonize module find the skeleton of a 2D or 3D voxel-based object. The method detects ridges in the distance field of the object surface. If you use skeletonize in your research, please cite:
+The skeletonize module finds the skeleton of a 2D or 3D voxel-based object. The method detects ridges in the distance field of the object surface. If you use skeletonize in your research, please cite:
 
 - Abdollahzadeh, A., Sierra, A. & Tohka, J. Cylindrical Shape Decomposition for 3D Segmentation of Tubular Objects. IEEE Access 9, 23979–23995 (2021).
 
