@@ -24,4 +24,4 @@ s = skel.skeleton(bw_2d)
 - simple_path: substitute Euler method to define the shortest path
 - verbose: print the branch length while finding the skeleton
 
-<img src="examples/bw_2d_skel.png" width="260" height="200" />
+<img src="examples/bw_2d_skel.PNG" width="260" height="200" />
