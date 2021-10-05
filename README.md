@@ -17,7 +17,7 @@ skel = skeletonize(speed_power=1.2, Euler_step_size=0.5, depth_th=2, length_th=N
 s = skel.skeleton(bw_2d)
 
 ```
-- speed_power defines the power of speed image.
+- speed_power defines the power of the speed image.
 - Euler_step_size: The Euler scheme is used for the back-tracking procedure, which solves the ordinary differential equation with a sub-voxel accuracy. 
 - depth_th: prunning skeleton branches as a factor of deepest point in the object
 - length_th: prunning skeleton branches as a factor of longest skeleton branch
