@@ -7,10 +7,14 @@ The skeletonize class finds the skeleton of a 2D pixel-based or 3D voxel-based o
 The implementation only requires numpy and scikit-fmm:
 
 ```python
+import numpy as np
 from skeletonize import skeletonize
 
+fn = './examples/bw_2d.npy'
+bw_2d = np.load(fn)
+
 skel = skeletonize(speed_power=1.2, Euler_step_size=0.5, depth_th=2, length_th=None, simple_path=False, verbose=False)
-s = skel.skeleton(bw)
+s = skel.skeleton(bw_2d)
 
 ```
 - speed_power defines the power of speed image.
