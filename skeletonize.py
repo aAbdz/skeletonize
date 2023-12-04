@@ -269,7 +269,7 @@ class skeletonize():
         
     
     def skeleton(self, obj):    
-        obj = np.array(obj, dtype=np.bool)
+        obj = np.array(obj, dtype=bool)
         im_2d = True if obj.ndim==2 else False
         
         boundary_dist = skfmm.distance(obj)        
